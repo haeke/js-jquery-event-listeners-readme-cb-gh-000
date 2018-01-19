@@ -16,7 +16,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function(img) {
-    img.addClass('tasty style="border-color: red;"');
+    $('img').addClass('tasty');
   });
 }
 
